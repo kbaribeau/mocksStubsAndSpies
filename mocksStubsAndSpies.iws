@@ -73,10 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StubTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StubTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/kbaribeau/stubtest/StubTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="133" selection-end="564" vertical-scroll-proportion="0.19529837">
+            <state line="11" column="16" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,18 +85,18 @@
         </entry>
       </file>
       <file leaf-file-name="A.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kbaribeau/stubtest/A.java">
+        <entry file="file://$PROJECT_DIR$/src/com/kbaribeau/mocktest/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="33" selection-end="186" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MockTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MockTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/kbaribeau/mocktest/MockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="16" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+            <state line="39" column="46" selection-start="818" selection-end="818" vertical-scroll-proportion="0.5660036">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -250,6 +250,10 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="kbaribeau" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="mocktest" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -566,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kbaribeau/mocktest/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kbaribeau/stubtest/B.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="17" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
@@ -580,12 +577,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/kbaribeau/mocktest/MockTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/kbaribeau/stubtest/StubTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+        <state line="11" column="16" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kbaribeau/mocktest/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="33" selection-end="186" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -596,9 +600,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/kbaribeau/stubtest/StubTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/kbaribeau/mocktest/MockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="133" selection-end="564" vertical-scroll-proportion="0.19529837">
+        <state line="39" column="46" selection-start="818" selection-end="818" vertical-scroll-proportion="0.5660036">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

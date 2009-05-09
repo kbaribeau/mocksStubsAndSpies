@@ -50,7 +50,7 @@ public class MockTest {
             if (baz.equals(expectedBaz) || expectedBaz.equals(NOT_SET)) {
                 wasCalled = true;
             }
-            return super.bar(baz);
+            return -1;
         }
     }
 }
