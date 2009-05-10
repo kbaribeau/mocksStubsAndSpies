@@ -87,7 +87,7 @@
       <file leaf-file-name="A.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kbaribeau/mocktest/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="33" selection-end="186" vertical-scroll-proportion="0.0">
+            <state line="10" column="32" selection-start="154" selection-end="171" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,7 +96,7 @@
       <file leaf-file-name="MockTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/kbaribeau/mocktest/MockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="46" selection-start="818" selection-end="818" vertical-scroll-proportion="0.5660036">
+            <state line="31" column="31" selection-start="616" selection-end="616" vertical-scroll-proportion="0.43399638">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -301,15 +301,19 @@
       <recent name="com.kbaribeau.mocktest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in mocksStubsAndSpies">
-    <tempConfiguration default="false" name="All in mocksStubsAndSpies" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
+  <component name="RunManager" selected="JUnit.MockTest">
+    <tempConfiguration default="false" name="MockTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
+      <pattern>
+        <option name="PATTERN" value="com.kbaribeau.mocktest.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
       <module name="mocksStubsAndSpies" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="com.kbaribeau.mocktest" />
+      <option name="MAIN_CLASS_NAME" value="com.kbaribeau.mocktest.MockTest" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -404,7 +408,7 @@
       <envs />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in mocksStubsAndSpies" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MockTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -586,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kbaribeau/mocktest/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="33" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kbaribeau/stubtest/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
@@ -600,9 +597,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kbaribeau/mocktest/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="154" selection-end="171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/kbaribeau/mocktest/MockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="46" selection-start="818" selection-end="818" vertical-scroll-proportion="0.5660036">
+        <state line="31" column="31" selection-start="616" selection-end="616" vertical-scroll-proportion="0.43399638">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

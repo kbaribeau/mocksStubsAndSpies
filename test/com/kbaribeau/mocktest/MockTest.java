@@ -37,9 +37,8 @@ public class MockTest {
     }
 
     public class BMockWithParameter extends B {
-        private static final String NOT_SET = "NOT_SET";
         boolean wasCalled = false;
-        String expectedBaz = NOT_SET;
+        String expectedBaz = null;
 
         public BMockWithParameter(String expectedBaz) {
             this.expectedBaz = expectedBaz;
@@ -47,7 +46,7 @@ public class MockTest {
 
         @Override
         public int bar(String baz) {
-            if (baz.equals(expectedBaz) || expectedBaz.equals(NOT_SET)) {
+            if (expectedBaz.equals(baz)) {
                 wasCalled = true;
             }
             return -1;
