@@ -26,6 +26,17 @@ public class MockTest {
         Assert.assertTrue(bMock.wasCalled);
     }
 
+    //mockito   
+//    @Test
+//    public void blah_Should() {
+//        B bMock = mock(B.class);
+//        A a = new A(bmock);
+//
+//        a.foo();
+//
+//        verify(bMock).bar();
+//    }
+
     public class BMock extends B {
         boolean wasCalled = false;
 
